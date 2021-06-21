@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style3.css">
+  <title>Alquingel Rush</title>
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Sobre o Game</a>
+    <a href="page2.html">Dev</a>
+    <a href="page3.html" class="active">Jogar o Game</a>
+    <a href="#" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+  </div>
+  <div class="game">
+    
+    <h2>Como funciona o game?</h2>
+    <p>Você controla o personagem Alquingel (Álcool em gel) e
+       tem como objetivo fugir do vírus que se movimenta para todos os lados.</p>
+    <p>Utilize as setas do teclado para movimentar-se pela tela e também se esconder. Caso seja infectado pelo vírus, clique no botão Reiniciar e depois clique em Jogar.</p>
+    <div id="buttons">
+      <button id="button1" onclick="loop()">Jogar</button>
+      <button id="button2" onclick="document.location.reload(true)">Reiniciar</button>
+    </div>
+    <canvas id="myCanvas" width="1250" height="600"></canvas>
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
