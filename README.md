@@ -2,7 +2,7 @@
 
 ## :bookmark: Sobre
 
-<strong>Alquingel Rush </strong> é um game desenvolvido como projeto final da matéria de Desenvolvimento Web no Centro Universitário da FEI, desenvolvido com o elemento Canvas do Javascript.
+<strong>Alquingel Rush </strong> é um game desenvolvido como projeto final da matéria de Desenvolvimento Web no Centro Universitário da FEI, os requisitos eram: ser um projeto original e utilizar o elemento Canvas do Javascript.
 
 <a id="tecnologias-utilizadas"></a>
 
